@@ -67,45 +67,35 @@
 
 
 
-#index.css
+#style.css
 
-div{
-    size: 40px;
-    text-align:center;
-background-color: rgb(142, 234, 142);
-
+body{
+    background-image:url(images1.jpg);
 }
-button{
-    background-color: rgb(62, 216, 227);
-    color: brown;
-    padding-left: 2px;
-
-    
+div{
+    color: rgb(25, 16, 18);
+    text-align: center;
 }
 h4{
-
-    font-size: 60px;
-    font-weight: 100;
-    color: rgba(24, 63, 69, 0.427);
-    font-style: italic;
-    font-feature-settings: "c2pc";
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: rgb(246, 155, 58);
+    background-color: aliceblue;
 }
-
-
-
-div#domains{
-    font-size: 40px;
-color: red;
+h2{
+    background-color: antiquewhite;
 }
-div#alpha_two_code{
-    font-size: 30px;
-    color: chartreuse;
+h5{
+    background-color: yellow;
 }
-
-
-input#country{
-    color:rgb(43, 49, 226);
-    background-color: cornsilk;
+.btn{
+    border-radius: 5px;
+    background-image: linear-gradient(to left,rgb(224, 210, 14),rgb(4, 103, 146));  
+    color: white;
+    height: 30px;
+}
+#kural{
+    background-image: linear-gradient(to left,rgb(83, 12, 59),rgb(33, 8, 117));  
+    color: white;
+}
+h1{
+    color: rgb(237, 233, 228);
+    text-align: center;
 }
